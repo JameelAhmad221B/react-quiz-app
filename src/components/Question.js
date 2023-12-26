@@ -12,7 +12,7 @@ const Question = ({ question, options, handleAnswer }) => {
         {options.map((option, index) => (
           <li key={index} className="mb-2">
             <button
-              className="w-1/2 bg-blue-500 text-white px-4 py-2 rounded-md text-left"
+              className="w-3/4 bg-blue-500 text-white px-4 py-2 rounded-md text-left"
               onClick={() => handleOptionClick(option)}
             >
               {option}
